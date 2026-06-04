@@ -4,16 +4,48 @@
     <meta charset="UTF-8">
     <title>Project Dashboard</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background: #f4f6f9; }
-        .btn { display: inline-block; padding: 15px 25px; margin: 10px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; }
-        .btn:hover { background: #0056b3; }
+        /* 1. Insert Steam Root Palette Here */
+        :root {
+            --bg-color: #171a21;       /* Steam deep background dark blue */
+            --card-bg: #1b2838;        /* Steam card background blue */
+            --text-main: #c7d5e0;      /* Steam silver-blue text */
+            --primary-accent: #66c0f4; /* Steam bright light blue */
+            --hover-accent: #1078ff;   /* Steam active neon blue hover */
+        }
+
+        /* 2. Colors updated below using var() */
+        body { 
+            font-family: sans-serif; 
+            text-align: center; 
+            padding: 50px; 
+            background: var(--bg-color); /* Was #f4f6f9 */
+            color: var(--text-main);     /* Added to make text readable on dark background */
+        }
+        
+        .btn { 
+            display: inline-block; 
+            padding: 15px 25px; 
+            margin: 10px; 
+            background: var(--card-bg);  /* Was #007bff */
+            color: var(--primary-accent);/* Was white */
+            text-decoration: none; 
+            border-radius: 5px; 
+            font-weight: bold; 
+            border: 1px solid #30363d;   /* Added subtle border to match Steam buttons */
+        }
+        
+        .btn:hover { 
+            background: var(--hover-accent); /* Was #0056b3 */
+            color: white;                    /* Added so text turns bright white on hover */
+        }
     </style>
 </head>
 <body>
     <h1>Modelled Topics from 50,000 Positive and Negative Steam Reviews</h1>
-    <p>Select a report below to open it in a new tab.</p>
+    
+    <p>Select a report below to open it in a new tab. ( &#x26A0; 30 MB files, might take time to load.)</p>
 
-    <a class="btn" href="voted_up.html" target="_blank"> &#129001; Positive Sentiment Topics</a>
-    <a class="btn" href="voted_down.html" target="_blank"> &#128997; Negative Sentiment Topics</a>
+    <a class="btn" href="voted_up.html" target="_blank"> 🟩 Positive Sentiment Topics</a>
+    <a class="btn" href="voted_down.html" target="_blank"> 🟥 Negative Sentiment Topics</a>
 </body>
 </html>
