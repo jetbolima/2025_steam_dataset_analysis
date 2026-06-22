@@ -2,7 +2,7 @@
 
 Source Data: DOI 10.5281/zenodo.17266922, by Donald Fountain. 
 
-Check out my ![initial written report](Written%20Report_%20Low-Resource%20Sentiment%20Analysis%20of%202025%20Steam%20Dataset.pdf) for the more insights and findings.
+Check out my [initial written report](Written%20Report_%20Low-Resource%20Sentiment%20Analysis%20of%202025%20Steam%20Dataset.pdf) for the more insights and findings!
 
 The study has demonstrated a process which reduces the load on a memory-constrained environment while still providing competitive and improved results vs the baseline. We have shown that HNSW is effective for representing embeddings through neighborhood statistics. Furthermore, while domain-specific features prove critical for embedding models that lack inherent domain knowledge, their impact yields diminishing returns as the embedding model's semantic ranking performance improves.
 
