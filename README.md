@@ -2,7 +2,7 @@
 
 Source Data: DOI 10.5281/zenodo.17266922, by Donald Fountain. 
 
-Check out my [initial written report](Written%20Report_%20Low-Resource%20Sentiment%20Analysis%20of%202025%20Steam%20Dataset.pdf) for the more insights and findings!
+Check out my [initial written report](Written%20Report_%20Low-Resource%20Sentiment%20Analysis%20of%202025%20Steam%20Dataset.pdf) for more insights and findings!
 
 ![Graphical_Abstract](Graphical%20Abstract_%20Low%20Resource%20Sentiment%20Analysis%20of%202025%20Steam%20Dataset.png)
 
